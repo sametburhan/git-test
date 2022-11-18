@@ -9,3 +9,4 @@ git push origin master/blabla/sthng //hedef bracha pushla
 git merge blabla //hedef brach ile içinde bulunduğun brachı birleştir
 git clone https://github.com/sametburhan/git-test.git
 git pull
+git submodule add https://github.com/sametburhan/3.git //repo içinde submodule oluşturur
