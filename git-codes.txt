@@ -12,3 +12,16 @@ git clone https://github.com/sametburhan/git-test.git
 git pull
 git submodule add https://github.com/sametburhan/3.git //repo içinde submodule oluşturur
 git config --global http.sslVerify false //disable ssl verify
+
+// Stash (geçici branch)
+
+git stash list //geçici olarak kayıt altına aldığınız değişiklikleri listeler
+git stash show
+git stash drop //Herhangi bir değişikliği listeden siler
+git stash pop //listenin en üstünde yer alan değişiklik geri yüklenecek ve bu değişiklik listeden silinecek
+git stash apply //istediğiniz değişikliği geri yükleyebilirsiniz
+git stash branch
+git stash save
+git stash clear
+git stash create
+git stash store
