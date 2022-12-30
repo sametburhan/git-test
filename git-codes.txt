@@ -1,13 +1,14 @@
 git init
-git add .
+git add . //all
+git add example.txt //only blabla file
 git status
 git log
-git branch blabla
-git checkout blabla //brach değiştir
-git remote add origin/sthng https://github.com/sametburhan/git-test.git//push için hedef anahtar kelime (origin) ayarla
-git commit -m "blabla"
-git push origin master/blabla/sthng //hedef bracha pushla
-git merge blabla //hedef brach ile içinde bulunduğun brachı birleştir
+git branch example
+git checkout example //brach değiştir
+git remote add origin/something https://github.com/sametburhan/git-test.git //push için hedef anahtar kelime (origin) ayarla
+git commit -m "example"
+git push origin master/blabla/something //hedef brach'a pushla
+git merge example //hedef brach ile içinde bulunduğun brach'ı birleştir
 git clone https://github.com/sametburhan/git-test.git
 git pull
 git submodule add https://github.com/sametburhan/3.git //repo içinde submodule oluşturur
