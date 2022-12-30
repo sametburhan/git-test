@@ -1,6 +1,7 @@
 git init
 git add .
 git status
+git log
 git branch blabla
 git checkout blabla //brach değiştir
 git remote add origin/sthng https://github.com/sametburhan/git-test.git//push için hedef anahtar kelime (origin) ayarla
