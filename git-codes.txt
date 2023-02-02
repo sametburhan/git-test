@@ -13,6 +13,9 @@ git clone https://github.com/sametburhan/git-test.git
 git pull
 git submodule add https://github.com/sametburhan/3.git //repo içinde submodule oluşturur
 git config --global http.sslVerify false //disable ssl verify
+git config –-global user.name “kullanıcı adınız”
+git config –-global user.email “kullanıcı e-mail adresiniz”
+git config –-global user.password “***********”
 
 // Stash (geçici branch)
 
